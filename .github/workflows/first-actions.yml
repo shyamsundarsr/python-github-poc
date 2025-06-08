@@ -1,6 +1,6 @@
 name: Testing Python code with GitHub Actions
 
-on: workflow_dispatch
+on: push
 
 jobs:
   build:
