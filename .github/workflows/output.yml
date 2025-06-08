@@ -1,0 +1,8 @@
+name: outputs
+on: workflow_dispatch
+jobs: 
+  info:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get output from first-actions
+      run: echo " Ouput from Github first actions workflow ${{ toJSON(github)}}"
