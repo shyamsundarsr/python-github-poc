@@ -23,3 +23,8 @@ jobs:
       run: |
         cd src
         python -m pytest addition.py
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy code
+      run: echo "Deploying code..."
