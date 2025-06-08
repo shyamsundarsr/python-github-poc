@@ -1,4 +1,4 @@
-name: My First GitHub Actions
+name: Testing Python code with GitHub Actions
 
 on: [push]
 
